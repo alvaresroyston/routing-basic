@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  background-color: #524594;
+  color: #ffffff;
+}
+
+.navigations ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.logo:hover, .navigations li:hover{
+ cursor: pointer;
+ color: #f5e71a;
+ transition: 0.2s;
+}
+
+.home-page, .about-page, .contact-page{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.home-page img, .about-page img, .contact-page img{
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border: 3px solid #524594;
+}
+
